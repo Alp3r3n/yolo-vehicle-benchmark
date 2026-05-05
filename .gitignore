@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local tooling metadata
+.codex/
+.agents/
+
+# Generated benchmark outputs
+outputs/
+
+# Large/local media and model weights
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.onnx
+
+# Environment files
+.env
+.env.*
